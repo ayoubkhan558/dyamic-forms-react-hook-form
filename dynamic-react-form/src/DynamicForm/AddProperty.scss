@@ -1,0 +1,85 @@
+.backBtn {
+  position: fixed;
+  left: 25px;
+  top: 25px;
+}
+
+.formModal {
+  .modal-content {
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .modal-header {
+    border-color: rgba(white, 0.3) !important;
+  }
+
+  .modal-footer {
+    border-color: rgba(white, 0.15) !important;
+  }
+
+  .modal-content {
+  }
+}
+
+.formModal2 {
+  .modal-content {
+    background: linear-gradient(180deg, #cb01b6 0%, #000 100%);
+  }
+}
+
+.form-check.button {
+  position: relative;
+  padding-left: 0 !important;
+
+  .form-check-input {
+    background-color: none;
+    box-shadow: none;
+    border: 0;
+    display: none;
+    width: 0;
+  }
+
+  .form-check-input + .form-check-label {
+    text-align: var(--text-color);
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid var(--form-border);
+    background: var(--bg-form-add-property);
+    width: 100%;
+    height: auto;
+    padding: 10px 15px;
+    // height: 2em;
+  }
+
+  .form-check-input:checked + .form-check-label {
+    background: #9100ff;
+    color: #fff;
+  }
+}
+
+label,
+.form-check-label {
+  font-weight: 300;
+}
+
+.form-check {
+  label,
+  .form-check-label {
+    font-weight: 200;
+  }
+}
+
+.addBtn {
+  all: unset;
+  border-radius: 7px;
+  border: 1px solid #fe01e4;
+  background: rgba(254, 1, 228, 0.21);
+  color: #fff;
+  font-family: var(--font-family-sec);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
